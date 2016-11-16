@@ -67,6 +67,7 @@
 </template>
 
 <script>
+  import cookies from 'js-cookie';
   import {mapActions} from 'vuex';
   import APIS from './api/index';
   export default {
@@ -131,6 +132,7 @@
         }).then(function (res) {
           console.log(res);
           if (res.body.status) {
+            cookies.set('token', res.body.token, { expires: 7 });
             self.loginDialogForm = false;
             self.isLogin = false;
             self.islLogin(res.body.data[0].username);
