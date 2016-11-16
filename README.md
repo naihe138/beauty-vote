@@ -1,9 +1,6 @@
 # beauty-vote
-这是用vue2.0,vue-router2.0,vuex2.0构建的一个投票小项目～～～～
 
-# beauty-vote
-
-> A Vue.js project
+> A vue2.0 project
 
 ## Build Setup
 
@@ -27,4 +24,4 @@ npm run e2e
 npm test
 ```
 
-[koa2搭建的后台](https://github.com/naihe138/beauty-vote-api)
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
