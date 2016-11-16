@@ -4,6 +4,26 @@
 
 ## Build Setup
 
+### git clone
+
+````
+git clone https://github.com/naihe138/beauty-vote.git
+````
+
+### vue init
+
+````
+vue init webpack beauty-vote
+````
+
+### to project
+
+````
+cd beauty-vote
+````
+
+### run
+
 ``` bash
 # install dependencies
 npm install
