@@ -4,6 +4,11 @@
 
 ## Build Setup
 
+#### koa-API
+````
+https://github.com/naihe138/beauty-vote-api
+````
+
 ### git clone
 
 ````
